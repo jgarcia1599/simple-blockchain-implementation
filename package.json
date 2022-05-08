@@ -1,4 +1,10 @@
 {
+  "name": "simple-blockchain-implementation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jgarcia1599/simple-blockchain-implementation.git",
+  "author": "Junior Garcia <junior.f.garcia99@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "crypto-js": "^4.1.1",
     "jayson": "^3.6.6"
