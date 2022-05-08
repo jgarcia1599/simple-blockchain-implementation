@@ -1,5 +1,6 @@
 const BlockChain = require("./../models/Blockchain");
 const db = {
-    blockchain : new BlockChain ()
-}
-module.exports = db
+  blockchain: new BlockChain(),
+  utxos: [],
+};
+module.exports = db;

@@ -1,14 +1,14 @@
 class BlockChain {
-    constructor(){
-        this.blocks = []
-    }
+  constructor() {
+    this.blocks = [];
+  }
 
-    addBlock(block){
-        this.blocks.push(block)
-    }
-    blockHeight(){
-        return this.blocks.length
-    }
+  addBlock(block) {
+    this.blocks.push(block);
+  }
+  blockHeight() {
+    return this.blocks.length;
+  }
 }
 
-module.exports = BlockChain
+module.exports = BlockChain;
